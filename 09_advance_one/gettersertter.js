@@ -22,5 +22,6 @@ class user {
 }
 
 const userOne = new user("abc@google.com", "abc")
+console.log(userOne.email);
 console.log(userOne.password);
-console.log(userOne.email)
+
